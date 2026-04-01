@@ -71,3 +71,33 @@ const App = () => {
         </div>
       </nav>
 
+
+      {/* --- Hero Section --- */}
+<header className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-16 gap-10">
+  <div className="md:w-1/2">
+    <div className="bg-[#F5F3FF] text-[#7C3AED] px-4 py-1.5 rounded-full text-xs font-bold inline-flex items-center gap-2 mb-6">
+      <span className="w-2 h-2 bg-[#7C3AED] rounded-full animate-ping"></span>
+      New: AI-Powered Tools Available
+    </div>
+    <h2 className="text-5xl md:text-6xl font-black leading-[1.1] mb-6 text-[#1E293B]">
+      Supercharge Your Digital Workflow
+    </h2>
+    <p className="text-gray-500 text-lg mb-10 leading-relaxed max-w-md">
+      Access premium AI tools, design assets, templates, and productivity software—all in one place.
+    </p>
+    <div className="flex flex-wrap gap-4">
+      {/* Explore Products Button - Full Rounded */}
+      <button className="bg-[#7C3AED] text-white px-10 py-4 rounded-full font-bold shadow-xl shadow-purple-100 hover:-translate-y-1 transition-all">
+        Explore Products
+      </button>
+      {/* Watch Demo Button - Full Rounded */}
+      <button className="border-2 border-gray-100 text-gray-700 px-10 py-4 rounded-full font-bold flex items-center gap-3 hover:bg-gray-50 transition-all">
+        <img src={playIcon} alt="play" className="w-5" /> Watch Demo
+      </button>
+    </div>
+  </div>
+  <div className="md:w-1/2">
+    <img src={bannerImg} alt="Banner" className="w-full rounded-[40px] shadow-2xl" />
+  </div>
+</header>
+
