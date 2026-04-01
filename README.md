@@ -1,16 +1,27 @@
-# React + Vite
+# 🚀 DigiTools - Premium Digital Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DigiTools** is a modern and responsive web application where users can find top-quality digital tools, AI writing assistants, and design templates to boost their productivity. It serves as a one-stop solution to make your digital workflow easier and more dynamic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
 
-## React Compiler
+The following modern technologies were used to build this project:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js** - For building a dynamic and component-based user interface.
+* **Tailwind CSS** - For custom, modern, and utility-first styling.
+* **React Toastify** - For interactive user notifications and alerts.
+* **Vite** - For a lightning-fast development environment.
+* **JSON API** - For local data fetching and product management.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+Here are the top 3 features of this project:
+
+* **Dynamic Product Filtering:** Seamlessly toggle between 'Products' and 'Cart' views, providing users with a smooth navigation experience.
+* **Smart Cart System:** A real-time cart calculation system where users can add or remove products and instantly see the total price.
+* **Fully Responsive & Interactive UI:** Works perfectly across all devices—mobile, tablet, and desktop. Includes an attractive Hero section, pricing tables, and interactive animations.
+
+
