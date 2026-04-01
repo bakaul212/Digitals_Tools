@@ -115,7 +115,8 @@ const App = () => {
 <section className="max-w-7xl mx-auto px-6 mb-32">
   <div className="text-center mb-16">
     <h2 className="text-4xl font-black text-[#1E293B] mb-4">Premium Digital Tools</h2>
-    <p className="text-gray-500 mb-8 max-w-lg mx-auto">Choose from our curated collection designed to boost your productivity.</p>
+    <p className="text-gray-500 mb-8 max-w-lg mx-auto">Choose from our curated collection of premium digital products designed
+to boost your productivity and creativity.</p>
     
     <div className="inline-flex bg-gray-50 p-1.5 rounded-full border border-gray-200 shadow-sm">
       <button 
@@ -135,7 +136,6 @@ const App = () => {
         <div key={p.id} className="bg-white border border-gray-100 rounded-[32px] p-8 hover:shadow-2xl transition-all group">
           <div className="flex justify-between items-start mb-6">
             <div className="bg-[#F5F3FF] p-4 rounded-2xl">
-              {/* ✅ সঠিক ইমেজ পাথ সংশোধন */}
               <img 
                 src={`/products/${p.icon}`} 
                 alt={p.name} 
@@ -185,7 +185,6 @@ const App = () => {
           {cart.map(item => (
             <div key={item.id} className="flex justify-between items-center bg-gray-50 p-5 rounded-2xl border border-gray-100">
               <div className="flex items-center gap-5">
-                {/* ✅ কার্টেও ইমেজ পাথটি সংশোধিত */}
                 <img src={`/products/${item.icon}`} className="w-12 h-12 object-contain" alt={item.name} />
                 <div>
                   <h4 className="font-extrabold text-lg text-slate-800">{item.name}</h4>
@@ -408,12 +407,10 @@ const App = () => {
        {/* Bottom Bar */}
         <div className="max-w-7xl mx-auto px-10 pt-10 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
           
-          {/* Left Side: Copyright (বাম পাশে) */}
           <p className="text-gray-600 text-sm">
             © 2026 Digitools. All rights reserved.
           </p>
 
-          {/* Right Side: Policy Links (ডান পাশে) */}
           <div className="flex flex-wrap gap-6 text-sm text-gray-500 font-medium">
             <a href="#" className="hover:text-white transition">Privacy Policy</a>
             <a href="#" className="hover:text-white transition">Terms of Services</a>
