@@ -41,7 +41,7 @@ const App = () => {
   };
 
   const totalPrice = cart.reduce((total, item) => total + item.price, 0);
-   
+
   return (
     <div className="min-h-screen bg-white text-[#111827]">
       <ToastContainer position="bottom-right" />
@@ -70,7 +70,6 @@ const App = () => {
           
         </div>
       </nav>
-
 
       {/* --- Hero Section --- */}
 <header className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-16 gap-10">
@@ -101,7 +100,7 @@ const App = () => {
   </div>
 </header>
 
- {/* --- Stats Section --- */}
+      {/* --- Stats Section --- */}
       <section className="bg-[#7C3AED] py-16 mb-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-around items-center gap-10 text-white text-center">
           <div><h3 className="text-5xl font-black mb-2">50K+</h3><p className="opacity-80 font-medium">Active Users</p></div>
@@ -209,7 +208,7 @@ const App = () => {
   )}
 </section>
 
- {/* --- Steps Section --- */}
+      {/* --- Steps Section --- */}
       <section className="bg-gray-50 py-24 mb-32">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black mb-16 text-[#1E293B]">Get Started In 3 Steps</h2>
@@ -427,3 +426,4 @@ const App = () => {
   ); 
 }; 
 
+export default App;
